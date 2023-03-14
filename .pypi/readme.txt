@@ -10,20 +10,20 @@
         >>>python -m pip install wheel
 3.打包及上传，依次执行以下脚本文件：
     windows:
-        ./windows/step1.打包.bat
-        ./windows/step2.上传.bat
+        ./windows/step1.pack.bat
+        ./windows/step2.upload.bat
     linux:
-        ./linux/step1.打包.sh
-        ./linux/step2.上传.sh
-4.安装、升级、卸载ztools模块
+        ./linux/step1.pack.sh
+        ./linux/step2.upload.sh
+4.安装、升级、卸载xcfg模块
     可使用dist目录下的whl包进行本地测试
-    安装ztools模块：
+    安装xcfg模块：
         >>>python -m pip install xcfg
         >>>python -m pip list
-    升级ztools模块
+    升级xcfg模块
         >>>python -m pip install --upgrade xcfg
         >>>python -m pip list
-    卸载ztools模块
+    卸载xcfg模块
         >>>python -m pip uninstall xcfg
         >>>python -m pip list
 5.以下目录为打包时自动生成：
